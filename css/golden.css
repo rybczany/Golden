@@ -71,6 +71,26 @@ hgroup h2 {
 	letter-spacing: 1px;
 	background-color: #fed136;
 }
+/*---------ICONS*/
+.box__icon {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.icon-cart,
+.icon-laptop,
+.icon-key2 {
+	font-size: 35px;
+	color: #fed136;
+}
+.icon-circle {
+	border: 3px solid #fed136;
+	border-radius: 100%;
+	width: 73px;
+	height: 73px;
+	display: inline-block;
+	line-height: 73px;
+}
+
 /*---------------STYLE--------------*/
 /*---------HEADER*/
 header {
