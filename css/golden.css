@@ -1,3 +1,4 @@
+
 /*----------GLOBAL*/
 body {
 	color: #000000;
@@ -18,9 +19,25 @@ li {
 .row {
 	margin: 0;
 }
+.col-sm-4 {
+	padding: 0;
+}
+.box {
+	text-align: center;
+}
+.box__text {
+	margin-bottom: 120px;
+}
+
+/*------------LAYOUT*/
+
+.gray {
+	background-color: #f7f7f7;
+}
 
 /*----------TYPOGRAPHY*/
-h1, h2, h3, h4 {
+
+h1, h2, h3, h4, p {
 	margin: 0;
 }
 h1 {
@@ -34,7 +51,19 @@ h3 {
 }
 h4 {
 	font-size: 16px;
+}
+p {
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+	line-height: 23px;
+	padding: 0 12px 0 12px;
+}
+h4, p {
 	color: #777777;
+}
+.box__subtitles p {
+	font-style: italic;
+	text-transform: capitalize;
 }
 h1, h2, h3, a {
 	font-family: 'Montserrat', sans-serif;
@@ -55,13 +84,17 @@ header h2 {
 }
 hgroup {
 	text-align: center;
-	margin: 120px 0 80px 0;
+	padding: 120px 0 80px 0;
 }
 hgroup h2 {
 	margin-bottom: 20px;
 }
+.box h3 {
+	text-transform: capitalize;
+}
 
 /*-----------BUTTONS*/
+
 .btn {
 	margin: 60px 0 160px 0;
 	display: inline-block;
@@ -72,8 +105,8 @@ hgroup h2 {
 	background-color: #fed136;
 }
 /*---------ICONS*/
+
 .box__icon {
-	text-align: center;
 	margin-bottom: 25px;
 }
 .icon-cart,
@@ -125,3 +158,16 @@ header {
 	font-weight: 400;
 	letter-spacing: 1px;
 }
+/*-----------SERVICES*/
+
+
+/*----------PORTFOLIO*/
+.box__subtitles {
+	display: inline-block;
+	padding: 30px 0;
+	background-color: #ffffff;
+	margin-top: -3px;
+	width: 92.5%;
+	margin-bottom: 50px;
+}
+
