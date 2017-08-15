@@ -11,6 +11,12 @@ a {
 li {
 	display: inline-block;
 }
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
 .container {
 	max-width: 940px;
 	width: 100%;
@@ -162,12 +168,45 @@ header {
 
 
 /*----------PORTFOLIO*/
-.box__subtitles {
+
+.box__item {
 	display: inline-block;
-	padding: 30px 0;
 	background-color: #ffffff;
-	margin-top: -3px;
-	width: 92.5%;
-	margin-bottom: 50px;
+	margin: 0 17.5px 50px;
 }
+.box__item--describe {
+	padding: 25px 0;
+}
+
+/*----------ABOUT US*/
+.box__describe {
+	text-align: end;
+}
+.box__describe h3 {
+	margin-bottom: 15px;
+}
+.box__describe h3:nth-child(1) {
+	margin-bottom: 5px;
+}
+.box__describe h3:nth-child(2) {
+	text-transform: capitalize;
+}
+.box__describe p {
+	padding: 0;
+}
+.photo-circle {
+	margin: 0 auto;
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+	border: 7px solid #f1f1f1;
+	overflow: hidden;
+	margin-bottom: 90px;
+}
+.photo-circle img {
+	max-width: 150%;
+	transform: translateX(-10%);
+	
+}
+
 
