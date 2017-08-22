@@ -8,6 +8,11 @@ a {
 	font-size: 18px;
 	text-decoration: none;
 }
+ul {
+	display: inline-block;
+	padding: 0;
+	margin: 0 0 50px
+}
 li {
 	display: inline-block;
 }
@@ -71,6 +76,9 @@ h4, p {
 	font-style: italic;
 	text-transform: capitalize;
 }
+#team .box__subtitles p {
+	font-style: normal;
+}
 h1, h2, h3, a {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -97,6 +105,10 @@ hgroup h2 {
 }
 .box h3 {
 	text-transform: capitalize;
+}
+footer p {
+	font-size: 16px;
+	line-height: 25px
 }
 
 /*-----------BUTTONS*/
@@ -167,10 +179,10 @@ header {
 	text-transform: capitalize;
 }
 .navbar__item--list {
-	margin-top: 34px;
+	margin-top: 55px;
 }
 .navbar__item--list ul li {
-	padding-left: 38px;
+	padding-left: 30px;
 }
 .navbar__item--list ul li a {
 	font-size: 14px;
@@ -224,7 +236,7 @@ header {
 	content: " ";
 	position: absolute;
 	left: 50%;
-	width: 2px;
+	width: 3px;
 	height:90px;
 	background-color: #f1f1f1;
 }
@@ -235,10 +247,43 @@ header {
 	height: 220px;
 	border-radius: 100%;
 	overflow: hidden;
-	margin-bottom: 100px;
 }
 .photo-circle--big img {
 	transform: translateY(10%) scale(1.2, 1.2);
 }
+.logo-bar {
+	margin-top: -15px
+}
+.logo-bar ul li {
+	padding: 0 5px
+}
+.logo-bar .icon-circle {
+	border: 3px solid #000;
+	color: #000;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	transition: all .2s ease;
+}
+.logo-bar i:hover {
+	color: #fff;
+}
+.logo-bar .icon-twitter:hover {
+	border: 3px solid #00aced;
+	background-color: #00aced
+}
+.logo-bar .icon-facebook:hover {
+	border: 3px solid #3b5998;
+	background-color: #3b5998
+}
+.logo-bar .icon-yahoo:hover {
+	border: 3px solid #324fe1;
+	background-color: #324fe1
+}
+.logo-bar .icon-google-plus:hover {
+	border: 3px solid #d95232;
+	background-color: #d95232
+}
+
 
 
