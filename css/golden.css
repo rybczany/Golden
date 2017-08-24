@@ -131,9 +131,13 @@ footer p {
 	overflow: hidden;
 	margin-bottom: 90px;
 	line-height: 30px;
+	cursor: pointer;
+	transition: all .5s ease;
 }
 .btn--circle h3 {
 	padding: 25px 28px;
+	color: #fff;
+	transition: all .5s ease;
 }
 /*---------ICONS*/
 
@@ -239,6 +243,13 @@ header {
 	width: 3px;
 	height:90px;
 	background-color: #f1f1f1;
+}
+.btn--circle.active {
+	background-color: #000;
+	border: 7px solid #fed136;
+}
+.btn--circle h3.active {
+	color: #fed136;
 }
 /*--------TEAM*/
 .photo-circle--big {
