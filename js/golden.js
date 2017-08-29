@@ -9,4 +9,12 @@ $(document).ready(function(){
 		$('.btn--circle h3').toggle();
 	});
 
+	$('.autoplay').slick({
+	  slidesToShow: 4,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 2000,
+	});
+
+
 })
