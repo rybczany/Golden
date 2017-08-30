@@ -85,12 +85,12 @@ h4, p {
 #team .box__subtitles p {
 	font-style: normal;
 }
-h1, h2, h3, a {
+h1, h2, h3, a, input, textarea {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-h1, header h2, a {
+h1, header h2, a, #contact h2 {
 	color: #ffffff;
 }
 header h2, hgroup h4 {
@@ -116,6 +116,18 @@ footer p {
 	font-size: 16px;
 	line-height: 25px
 }
+input, textarea {
+	color: #bbbbbb;
+	letter-spacing: .5px;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+	color: #bbbbbb;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #bbbbbb;
+}
 
 /*-----------BUTTONS*/
 
@@ -127,6 +139,10 @@ footer p {
 	line-height: 65px;
 	letter-spacing: 1px;
 	background-color: #fed136;
+	text-align: center;
+}
+.btn--square {
+	margin: 0 auto 115px;
 }
 .btn--circle {
 	margin: 0 auto;
@@ -308,6 +324,9 @@ header {
 	overflow: hidden;
 	padding: 0;
 }
+.logo-bar li {
+	padding: 0 10px;
+}
 .slick-arrow,
 .slick-dots {
 	visibility: hidden;
@@ -315,6 +334,21 @@ header {
 /*----------CONTACT*/
 section.background-image {
 	background-image: url("../image/map.png");
+}
+input, textarea {
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+	border: none;
+	text-indent: 20px;
+}
+input {
+	margin-bottom: 30px;
+	line-height: 50px;
+}
+textarea {
+	resize: none;
+	padding:20px 0 160px;
 }
 
 
