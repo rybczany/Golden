@@ -112,7 +112,7 @@ hgroup h2 {
 .box h3 {
 	text-transform: capitalize;
 }
-footer p {
+footer.box p {
 	font-size: 16px;
 	line-height: 25px
 }
@@ -128,6 +128,11 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
 	color: #bbbbbb;
 }
+.main p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #000;
+}
 
 /*-----------BUTTONS*/
 
@@ -140,6 +145,12 @@ textarea::-webkit-input-placeholder {
 	letter-spacing: 1px;
 	background-color: #fed136;
 	text-align: center;
+	transition: all .4s ease;
+}
+a.btn:hover{
+	 transform: scale(1.05);
+	 background-color: #ffde6c;
+	 color: #b1a4a4;
 }
 .btn--square {
 	margin: 0 auto 115px;
@@ -212,7 +223,12 @@ header {
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 1px;
+	transition: color .3s ease;
 }
+.navbar__item--list ul li a:hover{
+	color: #fed136
+}
+
 /*-----------SERVICES*/
 
 
@@ -353,6 +369,45 @@ textarea {
 	resize: none;
 	padding:20px 0 160px;
 }
+/*----------FOOTER*/
+.main{
+	text-align: center;
+}
+.main__content{
+	margin: 35px 0 45px;
+}
+.social-bar--adjust{
+	margin-top: -10px
+}
+.social-bar--adjust ul{
+	margin: 0;
+}
+.main .social-bar .icon-circle{
+	border: none;
+	width:40px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	background-color: #000
+}
+.main .social-bar .icon--circle i{
+	color: #fff
+}
+.social-bar .icon-twitter:hover {
+	background-color: #00aced
+}
+.social-bar .icon-facebook:hover {
+	background-color: #3b5998
+}
+.social-bar .icon-yahoo:hover {
+	background-color: #324fe1
+}
+.social-bar .icon-google-plus:hover {
+	background-color: #d95232
+}
+
+
+
 
 
 
