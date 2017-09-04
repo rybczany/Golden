@@ -147,7 +147,7 @@ textarea::-webkit-input-placeholder {
 	text-align: center;
 	transition: all .4s ease;
 }
-a.btn:hover{
+.btn:hover{
 	 transform: scale(1.05);
 	 background-color: #ffde6c;
 	 color: #b1a4a4;
@@ -165,7 +165,7 @@ a.btn:hover{
 	margin-bottom: 90px;
 	line-height: 30px;
 	cursor: pointer;
-	transition: all 1s ease;
+	transition: all .5s ease;
 }
 .btn--circle h3 {
 	padding: 25px 28px;
