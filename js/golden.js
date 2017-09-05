@@ -24,13 +24,21 @@ $(document).ready(function(){
 })
 
 // VANILLA JS
-/*------------------------------------------------
-var circle = document.querySelector('.btn--circle');
+
+/*var circle = document.querySelector('.btn--circle');
 
 circle.addEventListener('click', function(){
+
 	var hide = document.querySelectorAll('.hide');
-	hide.classList.toggle('hide');
-	console.log(hide);
+	
+	
+	for (var i = 0; i<hide.length; i++){
+	hide[i].classList.remove('hide');
+	//hide[i].classList.add('hide');
+	var parent = hide[i].parentNode.children;
+	}
+	console.log(parent);
 });
--------------------------------------------------*/
+*/
+
 
